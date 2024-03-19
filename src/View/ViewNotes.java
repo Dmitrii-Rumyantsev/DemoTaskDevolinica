@@ -83,8 +83,8 @@ public class ViewNotes {
     }
 
     public void printDeleteNum(){
-        System.out.println(
-                "Введите номер заметки для удаления:"
+        System.out.print(
+                "Введите номер заметки для удаления: "
         );
     }
 
@@ -96,7 +96,7 @@ public class ViewNotes {
 
     public void printDeleteTitle(String title){
         System.out.println(
-                "Заметка " + title + " успешно удалена."
+                "Заметка \"" + title + "\" успешно удалена."
         );
     }
 
