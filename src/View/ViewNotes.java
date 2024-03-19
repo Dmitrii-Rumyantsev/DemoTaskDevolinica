@@ -46,11 +46,6 @@ public class ViewNotes {
         );
     }
 
-    public void printDelete(){
-        System.out.println(
-                "Заметка \"Покупки\" успешно удалена."
-        );
-    }
 
     public void printWhileNotEnd(){
         System.out.println(
