@@ -41,7 +41,6 @@ public class ControllerNote {
                     }
                     default: {
                         viewNotes.printChoiceToOneToFive();
-                        scanner.next();
                     }
                 }
             }
@@ -62,11 +61,11 @@ public class ControllerNote {
     }
 
     public void showNotes(){
-        viewNotes.printShowNotes();
         if (notes.isEmpty()){
             viewNotes.printNullList();
         }
         else {
+            viewNotes.printShowNotes();
             viewNotes.printList(notes);
         }
     }
